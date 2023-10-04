@@ -1,0 +1,50 @@
+<div class='card'>
+    <div class='card-header'>
+        {{pageTitle}}
+    </div>
+</div>
+<div class='card-body'>
+    <div class='row'>
+        <div class='col-md-2'>Filter By:</div>
+        <div class='col-md-4'>
+            <input type='text' />
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-md-6'>
+            <h4>Filtered by: {{listFilter}}</h4>
+        </div>
+    </div>
+
+    <div class='table-responsive'>
+        <table class='table'
+               *ngIf='surahs.length'>
+            <thead>
+                <tr>
+                    <th>Surah Number</th>
+                    <th>Surah Name</th>
+                    <th>English Name</th>
+                    <th>Name Translation</th>
+                    <th>No.of Ayahs</th>
+                    <th>Revelation Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let surah of filteredSurahs'>
+                    <td>
+                        <a [routerLink]="['/surahs',surah.number]">{{surah.number}}</a>
+                    </td>
+                    <td>{{surah.name}}</td>
+                    <td>{{surah.englishName}}</td>
+                    <td>{{surah.englishNameTranslation}}</td>
+                    <td>{{surah.numberOfAyahs}}</td>
+                    <td><img [src]='surah.revelationType'
+                             [title]='surah.englishName'
+                             [style.width.px]='imageWidth'
+                             [style.margin.px]='imageMargin'>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
