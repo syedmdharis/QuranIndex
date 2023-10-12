@@ -11,7 +11,8 @@ import { Component } from '@angular/core';
   <div class='container'>
     <ul class='nav nav-pills'>
       <li><a class='nav-link' routerLink='/welcome'>Home</a></li>
-      <li><a class='nav-link' routerLink='/surahs'>Surah List</a></li>
+      <li><a class='nav-link' routerLink='/surahs'>Surah</a></li>
+      <li><a class='nav-link' routerLink='/quranchapter'>Quran chapter</a></li>
       <li><a class='nav-link' routerLink='/pages'>Pages</a></li>
     </ul> 
     <router-outlet></router-outlet>

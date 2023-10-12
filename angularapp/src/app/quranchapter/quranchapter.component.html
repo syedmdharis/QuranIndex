@@ -1,0 +1,78 @@
+<div class='card'>
+  <div class='card-header'>
+    {{pageTitle}}
+  </div>
+</div>
+<div class='card-body'>
+  <div class='row'>
+    <div class='col-md-2'>Filter By:</div>
+    <div class='col-md-4'>
+      <input type='text' />
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-6'>
+      <!--<h4>Filtered by: {{listFilter}}</h4>-->
+    </div>
+  </div>
+  <div class='ChapterAndJuzList_surahLayout__ZZ82j'
+       *ngFor='let ch of chapter.chapters'>
+    <div class='ChapterAndJuzList_tabsContainer'>
+      <div class='SurahPreviewRow_container__3ZfRV'>
+        <div class='SurahPreviewRow_left__jd1pg'>
+          <div class='SurahPreviewRow_surahNumber__BICjx'>
+            <span>{{ch.id}}</span>
+          </div>
+          <div class='SurahPreviewRow_surahNameContainer__b78tP'>
+            <div class='SurahPreviewRow_surahName__jrca5'>
+              {{ch.name_simple}}
+            </div>
+            <div class='SurahPreviewRow_translatedSurahName__SHzIe'>
+              {{ch.translated_name.name}}
+            </div>
+          </div>
+        </div>
+        <div class='SurahPreviewRow_right__6w3Ku'>
+          <div>
+            <span class='ChapterIconContainer_iconContainer__5umYV'>
+              <span translate='no'>{{ch.name_arabic}}</span>
+            </span>
+          </div>
+          <div class='SurahPreviewRow_description__78w9M'>
+            {{ch.verses_count}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<table class='table'
+           *ngIf='chapter'>
+      <thead>
+        <tr>
+          <th>Chapter Number</th>
+          <th>Chapter Name</th>
+          <th>Name Translation</th>
+          <th>No.of Ayahs</th>
+          <th>Revelation Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let ch of chapter.chapters'>-->
+    <!--<td>
+      <a [routerLink]="['/quranchapter',chapter]">{{ch.id}}</a>
+    </td>-->
+    <!--<td>{{ch.id}}</td>
+    <td>{{ch.name_simple}} - {{ch.name_arabic}}</td>
+    <td>{{ch.translated_name.name}}</td>
+    <td>{{ch.verses_count}}</td>-->
+    <!--<td>
+      <img [src]="./assets/images/_ch.revelation_place_.png"
+           [title]='ch.name_simple'
+           [style.width.px]='imageWidth'
+           [style.margin.px]='imageMargin'>
+    </td>-->
+    <!--<td>{{ch.revelation_place}}</td>
+        </tr>
+      </tbody>
+    </table>-->
+  </div>
+</div>

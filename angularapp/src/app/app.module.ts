@@ -9,12 +9,15 @@ import { SurahListComponent } from './surah/surah-list.component';
 import { RouterModule } from '@angular/router';
 import { WelcomeComponent } from './home/welcome.component';
 import { QuranModule } from './quran.module';
+import { QuranChapterService } from './quranchapter/quranchapter.services';
+import { QuranchapterComponent } from './quranchapter/quranchapter.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SurahListComponent,
+    QuranchapterComponent,
     ConvertToSpacesPipe,
     StarComponent,
     WelcomeComponent
