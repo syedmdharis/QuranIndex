@@ -4,19 +4,26 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'pm-root',
   template: `
-  <nav class='nav navbar-expand navbar-light bg-light'>
-    <h4>{{pageTitle}}</h4>
+  <nav>
+  <div class="wrapper">
+   <div class="logo"><a href="#">{{pageTitle}}</a></div>
+    <ul class='nav-links'>
+      <li><a class='nav-links' routerLink='/welcome'>Home</a></li>
+      <li><a class='nav-links' routerLink='/surahs'>Surah</a></li>
+      <li><a class='nav-links' routerLink='/quranchapter'>Quran chapter</a></li>
+      <li><a class='nav-links' routerLink='/pages'>Pages</a></li>
+    </ul>     
+  </div>
   </nav>
-  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <div class='container'>
-    <ul class='nav nav-pills'>
-      <li><a class='nav-link' routerLink='/welcome'>Home</a></li>
-      <li><a class='nav-link' routerLink='/surahs'>Surah</a></li>
-      <li><a class='nav-link' routerLink='/quranchapter'>Quran chapter</a></li>
-      <li><a class='nav-link' routerLink='/pages'>Pages</a></li>
-    </ul> 
-    <router-outlet></router-outlet>
-  </div> 
+  <router-outlet></router-outlet>
+  </div>
+
   `
 })
 

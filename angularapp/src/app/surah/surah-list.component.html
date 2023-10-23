@@ -1,25 +1,13 @@
-<div class='card'>
-    <div class='card-header'>
-        {{pageTitle}}
-    </div>
+<div>
+  <div>
+    <h4>{{pageTitle}}</h4>
+  </div>
 </div>
 <div class='card-body'>
-    <div class='row'>
-        <div class='col-md-2'>Filter By:</div>
-        <div class='col-md-4'>
-            <input type='text' />
-        </div>
-    </div>
-    <div class='row'>
-        <div class='col-md-6'>
-            <h4>Filtered by: {{listFilter}}</h4>
-        </div>
-    </div>
-
     <div class='table-responsive'>
-        <table class='table'
+        <table class='table table-striped'
                *ngIf='surahs.length'>
-            <thead>
+            <thead class='thead-light'>
                 <tr>
                     <th>Surah Number</th>
                     <th>Surah Name</th>
@@ -29,7 +17,7 @@
                     <th>Revelation Type</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class='customtable'>
                 <tr *ngFor='let surah of filteredSurahs'>
                     <td>
                         <a [routerLink]="['/surahs',surah.number]">{{surah.number}}</a>

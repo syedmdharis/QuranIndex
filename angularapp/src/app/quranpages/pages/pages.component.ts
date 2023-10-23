@@ -11,7 +11,7 @@ import { PagesService } from './pages.service';
   styleUrls: ['./pages.component.css']
 })
 export class PagesComponent implements OnInit {
-  pageTitle: string = 'Ayah List';
+  pageTitle: string = 'Ayahs in the page';
   errorMessage: string = '';
   sub!: Subscription;
   filteredPages: IPage[] = [];
