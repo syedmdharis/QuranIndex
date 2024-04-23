@@ -11,6 +11,7 @@ import { WelcomeComponent } from './home/welcome.component';
 import { QuranModule } from './quran.module';
 import { QuranChapterService } from './quranchapter/quranchapter.services';
 import { QuranchapterComponent } from './quranchapter/quranchapter.component';
+import { JuzComponent } from './juz/juz.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { QuranchapterComponent } from './quranchapter/quranchapter.component';
     AppComponent,
     SurahListComponent,
     QuranchapterComponent,
+    JuzComponent,
     ConvertToSpacesPipe,
     StarComponent,
     WelcomeComponent

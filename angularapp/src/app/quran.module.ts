@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { SurahListComponent } from './surah/surah-list.component';
 import { SurahDetailGuard } from './surah/surah-detail.guard';
 import { QuranchapterComponent } from './quranchapter/quranchapter.component';
+import { JuzComponent } from './juz/juz.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { QuranchapterComponent } from './quranchapter/quranchapter.component';
     CommonModule, 
     FormsModule,
     RouterModule.forChild([
+      {path: 'juz', component: JuzComponent },
       {path: 'quranchapter', component: QuranchapterComponent },
       {path: 'surahs', component: SurahListComponent},
       {path: 'pages', component: PagesComponent},

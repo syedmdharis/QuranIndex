@@ -1,27 +1,27 @@
 <div class='card-title'>
   {{pageTitle}}
 </div>
-<div class='chapter-container' *ngIf='quranchapters.length'>
-  <div *ngFor='let ch of quranchapters'>
+<div class='chapter-container' *ngIf='quranjuz.length'>
+  <div *ngFor='let j of quranjuz'>
     <a href="">
       <div class='chapter'>
         <div class='chapter-number'>
-          <div class='left'><span>{{ch.id}}</span></div>
+          <div class='left'><span>{{j.id}}</span></div>
         </div>
         <div class='chapter-name'>
           <div class='top'>
-            {{ch.name_simple}}
+            {{j.first_verse_id}}
           </div>
           <div class='bottom'>
-            {{ch.translated_name.name}}
+            {{j.last_verse_id}}
           </div>
         </div>
         <div class='chapter-info'>
           <div class='top'>
-            <span translate='no'>{{ch.name_arabic}}</span>
+            <!--<span translate='no'>{{ch.name_arabic}}</span>-->
           </div>
           <div class='bottom'>
-            {{ch.verses_count}}
+            {{j.verses_count}}
           </div>
         </div>
       </div>

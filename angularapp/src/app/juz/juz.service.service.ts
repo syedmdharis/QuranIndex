@@ -1,21 +1,20 @@
-import { HttpClient, HttpErrorResponse } from "@angular/common/http"
-import { Injectable } from "@angular/core";
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { catchError, Observable, tap, throwError } from "rxjs";
-import { IChapter } from "./chapters";
+import { IJuz } from './juz';
 
 @Injectable({
   providedIn: 'root'
 })
-
-export class QuranChapterService {
-  private chapterUrl = 'https://api.quran.com/api/v4/chapters?language=en'
+export class JuzService {
+    private juzUrl = 'https://api.quran.com/api/v4/juzs' 
 
   constructor(private http: HttpClient) { }
 
-  getChapter(): Observable<IChapter> {
-    return this.http.get<IChapter>(this.chapterUrl)
+  getChapter(): Observable<IJuz> {
+    return this.http.get<IJuz>(this.juzUrl)
       .pipe(
-        tap(data => console.log('Syed Chapter: ', JSON.stringify(data))),
+        tap(data => console.log('Syed Juz: ', JSON.stringify(data))),
         catchError(this.handleError));
   }
 
