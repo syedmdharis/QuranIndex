@@ -1,4 +1,4 @@
-import { IQuranJuz } from "./QuranJuz";
+import { IQuranJuz } from "./quranjuz";
 
 export interface IJuz {
   juzs: IQuranJuz[]
