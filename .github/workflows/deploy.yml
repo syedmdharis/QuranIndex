@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # Or 'master' if your branch is named that
+      - master  # Your repo uses 'master' as the main branch
 permissions:
   contents: write
 jobs:
@@ -13,12 +13,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install and Build 🔧
+        working-directory: angularapp
         run: |
           npm install
+          # We build inside the subfolder and set the base-href for GitHub Pages
           npx ng build --configuration production --base-href /QuranIndex/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/QuranIndex # no /browser folder
+          # This path must match where Angular puts your build files
+          folder: angularapp/dist/angularapp
