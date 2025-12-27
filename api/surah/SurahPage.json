@@ -1,0 +1,237 @@
+{
+    "code": 200,
+    "status": "OK",
+    "data": {
+        "number": 3,
+        "ayahs": [
+            {
+                "number": 13,
+                "text": "\u0625\u0650\u0646\u0651\u064e \u0671\u0644\u0651\u064e\u0630\u0650\u06cc\u0646\u064e \u0643\u064e\u0641\u064e\u0631\u064f\u0648\u0627\u06df \u0633\u064e\u0648\u064e\u0627\u06e4\u0621\u064c \u0639\u064e\u0644\u064e\u06cc\u06e1\u0647\u0650\u0645\u06e1 \u0621\u064e\u0623\u064e\u0646\u0630\u064e\u0631\u06e1\u062a\u064e\u0647\u064f\u0645\u06e1 \u0623\u064e\u0645\u06e1 \u0644\u064e\u0645\u06e1 \u062a\u064f\u0646\u0630\u0650\u0631\u06e1\u0647\u064f\u0645\u06e1 \u0644\u064e\u0627 \u06cc\u064f\u0624\u06e1\u0645\u0650\u0646\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 6,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 2,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 14,
+                "text": "\u062e\u064e\u062a\u064e\u0645\u064e \u0671\u0644\u0644\u0651\u064e\u0647\u064f \u0639\u064e\u0644\u064e\u0649\u0670 \u0642\u064f\u0644\u064f\u0648\u0628\u0650\u0647\u0650\u0645\u06e1 \u0648\u064e\u0639\u064e\u0644\u064e\u0649\u0670 \u0633\u064e\u0645\u06e1\u0639\u0650\u0647\u0650\u0645\u06e1\u06d6 \u0648\u064e\u0639\u064e\u0644\u064e\u0649\u0670\u06e4 \u0623\u064e\u0628\u06e1\u0635\u064e\u0640\u0670\u0631\u0650\u0647\u0650\u0645\u06e1 \u063a\u0650\u0634\u064e\u0640\u0670\u0648\u064e\u0629\u08f1\u06d6 \u0648\u064e\u0644\u064e\u0647\u064f\u0645\u06e1 \u0639\u064e\u0630\u064e\u0627\u0628\u064c \u0639\u064e\u0638\u0650\u06cc\u0645\u08f1\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 7,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 2,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 15,
+                "text": "\u0648\u064e\u0645\u0650\u0646\u064e \u0671\u0644\u0646\u0651\u064e\u0627\u0633\u0650 \u0645\u064e\u0646 \u06cc\u064e\u0642\u064f\u0648\u0644\u064f \u0621\u064e\u0627\u0645\u064e\u0646\u0651\u064e\u0627 \u0628\u0650\u0671\u0644\u0644\u0651\u064e\u0647\u0650 \u0648\u064e\u0628\u0650\u0671\u0644\u06e1\u06cc\u064e\u0648\u06e1\u0645\u0650 \u0671\u0644\u06e1\u0640\u0654\u064e\u0627\u062e\u0650\u0631\u0650 \u0648\u064e\u0645\u064e\u0627 \u0647\u064f\u0645 \u0628\u0650\u0645\u064f\u0624\u06e1\u0645\u0650\u0646\u0650\u06cc\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 8,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 16,
+                "text": "\u06cc\u064f\u062e\u064e\u0640\u0670\u062f\u0650\u0639\u064f\u0648\u0646\u064e \u0671\u0644\u0644\u0651\u064e\u0647\u064e \u0648\u064e\u0671\u0644\u0651\u064e\u0630\u0650\u06cc\u0646\u064e \u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u06df \u0648\u064e\u0645\u064e\u0627 \u06cc\u064e\u062e\u06e1\u062f\u064e\u0639\u064f\u0648\u0646\u064e \u0625\u0650\u0644\u0651\u064e\u0627\u06e4 \u0623\u064e\u0646\u0641\u064f\u0633\u064e\u0647\u064f\u0645\u06e1 \u0648\u064e\u0645\u064e\u0627 \u06cc\u064e\u0634\u06e1\u0639\u064f\u0631\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 9,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 17,
+                "text": "\u0641\u0650\u06cc \u0642\u064f\u0644\u064f\u0648\u0628\u0650\u0647\u0650\u0645 \u0645\u0651\u064e\u0631\u064e\u0636\u08f1 \u0641\u064e\u0632\u064e\u0627\u062f\u064e\u0647\u064f\u0645\u064f \u0671\u0644\u0644\u0651\u064e\u0647\u064f \u0645\u064e\u0631\u064e\u0636\u08f0\u0627\u06d6 \u0648\u064e\u0644\u064e\u0647\u064f\u0645\u06e1 \u0639\u064e\u0630\u064e\u0627\u0628\u064c \u0623\u064e\u0644\u0650\u06cc\u0645\u064f\u06e2 \u0628\u0650\u0645\u064e\u0627 \u0643\u064e\u0627\u0646\u064f\u0648\u0627\u06df \u06cc\u064e\u0643\u06e1\u0630\u0650\u0628\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 10,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 18,
+                "text": "\u0648\u064e\u0625\u0650\u0630\u064e\u0627 \u0642\u0650\u06cc\u0644\u064e \u0644\u064e\u0647\u064f\u0645\u06e1 \u0644\u064e\u0627 \u062a\u064f\u0641\u06e1\u0633\u0650\u062f\u064f\u0648\u0627\u06df \u0641\u0650\u06cc \u0671\u0644\u06e1\u0623\u064e\u0631\u06e1\u0636\u0650 \u0642\u064e\u0627\u0644\u064f\u0648\u06e4\u0627\u06df \u0625\u0650\u0646\u0651\u064e\u0645\u064e\u0627 \u0646\u064e\u062d\u06e1\u0646\u064f \u0645\u064f\u0635\u06e1\u0644\u0650\u062d\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 11,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 19,
+                "text": "\u0623\u064e\u0644\u064e\u0627\u06e4 \u0625\u0650\u0646\u0651\u064e\u0647\u064f\u0645\u06e1 \u0647\u064f\u0645\u064f \u0671\u0644\u06e1\u0645\u064f\u0641\u06e1\u0633\u0650\u062f\u064f\u0648\u0646\u064e \u0648\u064e\u0644\u064e\u0640\u0670\u0643\u0650\u0646 \u0644\u0651\u064e\u0627 \u06cc\u064e\u0634\u06e1\u0639\u064f\u0631\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 12,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 20,
+                "text": "\u0648\u064e\u0625\u0650\u0630\u064e\u0627 \u0642\u0650\u06cc\u0644\u064e \u0644\u064e\u0647\u064f\u0645\u06e1 \u0621\u064e\u0627\u0645\u0650\u0646\u064f\u0648\u0627\u06df \u0643\u064e\u0645\u064e\u0627\u06e4 \u0621\u064e\u0627\u0645\u064e\u0646\u064e \u0671\u0644\u0646\u0651\u064e\u0627\u0633\u064f \u0642\u064e\u0627\u0644\u064f\u0648\u06e4\u0627\u06df \u0623\u064e\u0646\u064f\u0624\u06e1\u0645\u0650\u0646\u064f \u0643\u064e\u0645\u064e\u0627\u06e4 \u0621\u064e\u0627\u0645\u064e\u0646\u064e \u0671\u0644\u0633\u0651\u064f\u0641\u064e\u0647\u064e\u0627\u06e4\u0621\u064f\u06d7 \u0623\u064e\u0644\u064e\u0627\u06e4 \u0625\u0650\u0646\u0651\u064e\u0647\u064f\u0645\u06e1 \u0647\u064f\u0645\u064f \u0671\u0644\u0633\u0651\u064f\u0641\u064e\u0647\u064e\u0627\u06e4\u0621\u064f \u0648\u064e\u0644\u064e\u0640\u0670\u0643\u0650\u0646 \u0644\u0651\u064e\u0627 \u06cc\u064e\u0639\u06e1\u0644\u064e\u0645\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 13,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 21,
+                "text": "\u0648\u064e\u0625\u0650\u0630\u064e\u0627 \u0644\u064e\u0642\u064f\u0648\u0627\u06df \u0671\u0644\u0651\u064e\u0630\u0650\u06cc\u0646\u064e \u0621\u064e\u0627\u0645\u064e\u0646\u064f\u0648\u0627\u06df \u0642\u064e\u0627\u0644\u064f\u0648\u06e4\u0627\u06df \u0621\u064e\u0627\u0645\u064e\u0646\u0651\u064e\u0627 \u0648\u064e\u0625\u0650\u0630\u064e\u0627 \u062e\u064e\u0644\u064e\u0648\u06e1\u0627\u06df \u0625\u0650\u0644\u064e\u0649\u0670 \u0634\u064e\u06cc\u064e\u0640\u0670\u0637\u0650\u06cc\u0646\u0650\u0647\u0650\u0645\u06e1 \u0642\u064e\u0627\u0644\u064f\u0648\u06e4\u0627\u06df \u0625\u0650\u0646\u0651\u064e\u0627 \u0645\u064e\u0639\u064e\u0643\u064f\u0645\u06e1 \u0625\u0650\u0646\u0651\u064e\u0645\u064e\u0627 \u0646\u064e\u062d\u06e1\u0646\u064f \u0645\u064f\u0633\u06e1\u062a\u064e\u0647\u06e1\u0632\u0650\u0621\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 14,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 22,
+                "text": "\u0671\u0644\u0644\u0651\u064e\u0647\u064f \u06cc\u064e\u0633\u06e1\u062a\u064e\u0647\u06e1\u0632\u0650\u0626\u064f \u0628\u0650\u0647\u0650\u0645\u06e1 \u0648\u064e\u06cc\u064e\u0645\u064f\u062f\u0651\u064f\u0647\u064f\u0645\u06e1 \u0641\u0650\u06cc \u0637\u064f\u063a\u06e1\u06cc\u064e\u0640\u0670\u0646\u0650\u0647\u0650\u0645\u06e1 \u06cc\u064e\u0639\u06e1\u0645\u064e\u0647\u064f\u0648\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 15,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            },
+            {
+                "number": 23,
+                "text": "\u0623\u064f\u0648\u06df\u0644\u064e\u0640\u0670\u06e4\u0649\u0655\u0650\u0643\u064e \u0671\u0644\u0651\u064e\u0630\u0650\u06cc\u0646\u064e \u0671\u0634\u06e1\u062a\u064e\u0631\u064e\u0648\u064f\u0627\u06df \u0671\u0644\u0636\u0651\u064e\u0644\u064e\u0640\u0670\u0644\u064e\u0629\u064e \u0628\u0650\u0671\u0644\u06e1\u0647\u064f\u062f\u064e\u0649\u0670 \u0641\u064e\u0645\u064e\u0627 \u0631\u064e\u0628\u0650\u062d\u064e\u062a \u062a\u0651\u0650\u062c\u064e\u0640\u0670\u0631\u064e\u062a\u064f\u0647\u064f\u0645\u06e1 \u0648\u064e\u0645\u064e\u0627 \u0643\u064e\u0627\u0646\u064f\u0648\u0627\u06df \u0645\u064f\u0647\u06e1\u062a\u064e\u062f\u0650\u06cc\u0646\u064e\n",
+                "surah": {
+                    "number": 2,
+                    "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                    "englishName": "Al-Baqara",
+                    "englishNameTranslation": "The Cow",
+                    "revelationType": "Medinan",
+                    "numberOfAyahs": 286
+                },
+                "numberInSurah": 16,
+                "juz": 1,
+                "manzil": 1,
+                "page": 3,
+                "ruku": 3,
+                "hizbQuarter": 1,
+                "sajda": false
+            }
+        ],
+        "surahs": {
+            "2": {
+                "number": 2,
+                "name": "\u0633\u064f\u0648\u0631\u064e\u0629\u064f \u0627\u0644\u0628\u064e\u0642\u064e\u0631\u064e\u0629\u0650",
+                "englishName": "Al-Baqara",
+                "englishNameTranslation": "The Cow",
+                "revelationType": "Medinan",
+                "numberOfAyahs": 286
+            }
+        },
+        "edition": {
+            "identifier": "quran-uthmani-quran-academy",
+            "language": "ar",
+            "name": "\u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0628\u0631\u0633\u0645 \u0627\u0644\u0639\u062b\u0645\u0627\u0646\u064a",
+            "englishName": "Modified Quran Uthmani Text from the Quran Academy to work with the Kitab font",
+            "format": "text",
+            "type": "quran",
+            "direction": "rtl"
+        }
+    }
+}
