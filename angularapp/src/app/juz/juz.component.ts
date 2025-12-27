@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { IJuz } from './juz';
 import { JuzService } from './juz.service.service';
-import { IQuranJuz } from './QuranJuz';
+import { IQuranJuz } from './quranjuz';
 
 @Component({
   selector: 'app-juz',
